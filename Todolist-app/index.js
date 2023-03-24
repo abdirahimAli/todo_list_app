@@ -46,31 +46,23 @@ function TOdo_item(){
           newlist_item.remove() 
      } ) 
 
-
-// newlist_item.addEventListener('dragstart',()=>{
-
-//   this.className += 'drge'
-//   setTimeout(()=> this.ClassName = 'invisible',0)
-//   console.log('hi')
-// }) 
-
-
-
 } 
 
 }
 
 ////////////////////////  Mode functions ///////////////////////
 function image_Mode_D(){
-  image1.src ="/todo-app-main/images/bg-desktop-dark.jpg"
-  iconmoon.src = "/todo-app-main/images/icon-sun.svg"
-  Modeswitch.textContent = "Dark Mode";
+  image1.src ="/Todolist-app/images/bg-desktop-light.jpg"
+
+  
+  iconmoon.src = "/Todolist-app/images/icon-moon.svg" 
+  Modeswitch.textContent = "Light Mode";
 }
 function image_Mode_L(){
 
-  image1.src ="/todo-app-main/images/bg-desktop-light.jpg"
-  iconmoon.src = "/todo-app-main/images/icon-moon.svg"
-  Modeswitch.textContent = "Light Mode";
+  image1.src ="/Todolist-app/images/bg-desktop-dark.jpg"
+  iconmoon.src ="/Todolist-app/images/icon-sun.svg"
+  Modeswitch.textContent = "Dark Mode";
 }
 
 function change_mode(e){
@@ -161,7 +153,9 @@ toggleSwitch.addEventListener('change',change_mode )
 add_item_search_bar.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
     event.preventDefault();
-    
+    TOdo_item(); 
+  itemsleft.textContent = ul_task.getElementsByTagName("li").length -k + " items left";
+ 
     }
 });
 add_item_search_bar.addEventListener('focusout', ()=> {

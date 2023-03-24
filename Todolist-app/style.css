@@ -1,18 +1,22 @@
 :root {
-    --primary-color: rgba(245, 245, 245, 0);
-    --on-background: rgb(66, 66, 66);
-    --checkbox_color: grey;
-    --font_color: black;
-    --font-backcolor:white;
-    --text-decoration-color: rgb(2, 61, 9);
-  }
-  [data-theme="dark"] {
     --primary-color: rgb(15, 15, 15);
     --on-background: rgba(255, 255, 255, 0.9);
     --checkbox_color: white;
     --font_color: white;
     --text-decoration-color:rgb(99, 247, 13);
     --font-backcolor:rgb(29, 24, 43);
+  }
+  [data-theme="dark"] {
+ 
+
+
+
+    --primary-color: rgba(245, 245, 245, 0);
+    --on-background: rgb(66, 66, 66);
+    --checkbox_color: grey;
+    --font_color: black;
+    --font-backcolor:white;
+    --text-decoration-color: rgb(2, 61, 9);
   }
   
   
@@ -26,7 +30,8 @@
 
 .bg-desktop-light{
     position: relative;
-    width: 104%;
+    width: 106%;
+    
 }
 
 .Todo{
@@ -44,7 +49,7 @@ color: aliceblue;
     align-items: center;
     position: absolute;
     margin-left: 40%;
-    margin-top: 30%;
+    margin-top: 32%;
 
 }
 
@@ -99,8 +104,7 @@ color: aliceblue;
     align-items: center;
     position: relative;
     margin-top: -40%;
-    /* margin-left: 100%; */
-    /* background-color: rgb(58, 10, 251);  */
+   
     width: 10%;
     height: 60%;
     list-style-type: none;
@@ -285,3 +289,43 @@ small{
 }
 
 
+
+
+@media only screen and (max-width: 416px) {
+
+  .first_background{
+    width: 100%;
+  }
+
+  .theme-switch-wrapper{
+    margin-right: 240px;
+  }
+  .icon-moon{
+    margin-top: -85px;
+  }
+
+
+.add_item{
+  width: 63%;
+  margin-top: 10%;
+  margin-left: 50px;
+}
+
+  .properties{
+    width: 70%;
+    margin-top: 60%;
+    margin-left: 50px;
+    padding: 5px;
+    
+    
+    }
+  .element{
+    width: 260px;
+    margin-left: -110px;
+    /* margin-top: 200px; */
+  }
+ .div_tasks{
+  margin-top: 340px;
+ }
+
+  }
