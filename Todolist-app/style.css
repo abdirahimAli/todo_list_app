@@ -319,6 +319,17 @@ small{
     
     
     }
+    .properties span{
+      font-size: 7px;
+    }
+    .properties > span:hover {
+      color: #4705ed;
+      cursor: pointer;
+      transform: translate(2px);
+      font-size: 12px;
+    
+     
+  }
   .element{
     width: 260px;
     margin-left: -110px;
@@ -329,3 +340,21 @@ small{
  }
 
   }
+  .Todo{
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 70%;
+    font-size: 100%;
+    color: aliceblue;
+    
+    }
+    .toggle-text {
+      position: relative;
+      top: -4px;
+      left: 80px;
+      color: var(--on-background);
+     /* font-size: 1px; */
+    }
+   .theme-switch{
+    margin-left: 70px;
+   } 
