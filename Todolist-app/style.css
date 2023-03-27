@@ -339,7 +339,7 @@ small{
   margin-top: 340px;
  }
 
-  }
+  
   .Todo{
     position: absolute;
     margin-top: -15%;
@@ -358,3 +358,9 @@ small{
    .theme-switch{
     margin-left: 70px;
    } 
+
+   input:checked + .slider::before {
+    transform: translateX(16px);
+  }
+
+}
