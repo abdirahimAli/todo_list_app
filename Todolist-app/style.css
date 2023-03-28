@@ -339,28 +339,23 @@ margin-left: 50px;
 margin-top: 340px;
 }
 
-
-.Todo{
-  position: absolute;
-  margin-top: -15%;
-  margin-left: 70%;
-  font-size: 100%;
-  color: aliceblue;
   
+  .Todo{
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 70%;
+    font-size: 100%;
+    color: aliceblue;
+    
+    }
+    .toggle-text {
+      position: relative;
+      top: -4px;
+      left: 80px;
+      color: var(--on-background);
+     /* font-size: 1px; */
+    }
+   .theme-switch{
+    margin-left: 70px;
+   } 
   }
-  .toggle-text {
-    position: relative;
-    top: -4px;
-    left: 80px;
-    color: var(--on-background);
-   /* font-size: 1px; */
-  }
- .theme-switch{
-  margin-left: 70px;
- } 
-
- input:checked + .slider::before {
-  transform: translateX(16px);
-}
-
-}
