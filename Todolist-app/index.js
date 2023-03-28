@@ -52,16 +52,16 @@ function TOdo_item(){
 
 ////////////////////////  Mode functions ///////////////////////
 function image_Mode_D(){
-  image1.src ="/Todolist-app/images/bg-desktop-light.jpg"
+  image1.src ="/todo_list_app/Todolist-app/images/bg-desktop-light.jpg"
 
   
-  iconmoon.src = "/Todolist-app/images/icon-moon.svg" 
+  iconmoon.src = "/todo_list_app/Todolist-app/images/icon-moon.svg" 
   Modeswitch.textContent = "Light Mode";
 }
 function image_Mode_L(){
 
-  image1.src ="/Todolist-app/images/bg-desktop-dark.jpg"
-  iconmoon.src ="/Todolist-app/images/icon-sun.svg"
+  image1.src ="/todo_list_app/Todolist-app/images/bg-desktop-dark.jpg"
+  iconmoon.src ="/todo_list_app/Todolist-app/images/icon-sun.svg"
   Modeswitch.textContent = "Dark Mode";
 }
 
